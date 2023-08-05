@@ -37,7 +37,7 @@ const conected =() => {
 
 
 //MONGODB
-const uri = "mongodb+srv://franmats:Casdf670120@cluster0.hi4ljaw.mongodb.net/"
+const uri = ""
 mongoose.set("strictQuery",false)
 mongoose.connect(uri, {dbName:"ecommerce"})
     .then(() => console.log("db connected"))
